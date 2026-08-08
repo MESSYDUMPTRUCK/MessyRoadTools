@@ -12,7 +12,9 @@ namespace MessyRoadTools.Systems
             global::MessyCore.Mod.Capabilities.Set("road.module", "ready");
             global::MessyCore.Mod.Capabilities.Set("road.grade-assist", global::MessyCore.Mod.Settings.UseGradeAssist ? "enabled" : "disabled");
             global::MessyCore.Mod.Capabilities.Set("road.elevation-tools", global::MessyCore.Mod.Settings.EnableRoadElevationTools ? "enabled" : "disabled");
+            global::MessyCore.Mod.Capabilities.Set("road.node-controller", global::MessyCore.Mod.Settings.EnableNodeController ? "enabled" : "disabled");
             global::MessyCore.Mod.Diagnostics.SetState("road.module", "ready");
+            global::MessyCore.Mod.Diagnostics.SetState("road.node-controller", global::MessyCore.Mod.Settings.EnableNodeController ? "ready" : "disabled");
         }
 
         protected override void OnUpdate()
@@ -23,7 +25,10 @@ namespace MessyRoadTools.Systems
                 return;
             }
             global::MessyCore.Mod.Capabilities.Set("road.runtime", "active");
-            global::MessyCore.Mod.Diagnostics.SetState("road.runtime", global::MessyCore.Mod.Settings.EnableRoadElevationTools ? "elevation-active" : "active");
+            var state = global::MessyCore.Mod.Settings.EnableRoadElevationTools ? "elevation-active" : "active";
+            if (global::MessyCore.Mod.Settings.EnableNodeController)
+                state += "+node-control";
+            global::MessyCore.Mod.Diagnostics.SetState("road.runtime", state);
         }
     }
 }
