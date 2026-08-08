@@ -1,0 +1,14 @@
+C:\Users\chris\.copilot\repos\MessyPack\MessyRoadTools\obj\Release\net48\MessyRoadTools.csproj.AssemblyReference.cache
+C:\Users\chris\.copilot\repos\MessyPack\MessyRoadTools\obj\Release\net48\MessyRoadTools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris\.copilot\repos\MessyPack\MessyRoadTools\obj\Release\net48\MessyRoadTools.AssemblyInfoInputs.cache
+C:\Users\chris\.copilot\repos\MessyPack\MessyRoadTools\obj\Release\net48\MessyRoadTools.AssemblyInfo.cs
+C:\Users\chris\.copilot\repos\MessyPack\MessyRoadTools\obj\Release\net48\MessyRoadTools.csproj.CoreCompileInputs.cache
+C:\Users\chris\.copilot\repos\MessyPack\MessyRoadTools\bin\Release\net48\MessyRoadTools.dll
+C:\Users\chris\.copilot\repos\MessyPack\MessyRoadTools\bin\Release\net48\MessyRoadTools.pdb
+C:\Users\chris\.copilot\repos\MessyPack\MessyRoadTools\bin\Release\net48\Colossal.Core.dll
+C:\Users\chris\.copilot\repos\MessyPack\MessyRoadTools\bin\Release\net48\Colossal.Logging.dll
+C:\Users\chris\.copilot\repos\MessyPack\MessyRoadTools\bin\Release\net48\Game.dll
+C:\Users\chris\.copilot\repos\MessyPack\MessyRoadTools\bin\Release\net48\Unity.Entities.dll
+C:\Users\chris\.copilot\repos\MessyPack\MessyRoadTools\obj\Release\net48\MessyRoa.8F696AD6.Up2Date
+C:\Users\chris\.copilot\repos\MessyPack\MessyRoadTools\obj\Release\net48\MessyRoadTools.dll
+C:\Users\chris\.copilot\repos\MessyPack\MessyRoadTools\obj\Release\net48\MessyRoadTools.pdb
